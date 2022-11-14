@@ -1,0 +1,22 @@
+[[bin]]
+name = "wordlist"
+path = "wordlist.rs"
+
+[dependencies]
+dashmap = "5.3.4"
+fnv = "1.0.7"
+nohash-hasher = "0.2.0"
+rayon = "1.5.3"
+unicode-segmentation = "1.7.1"
+rmp-serde = "1.1.0"
+serde = "1.0"
+memmap = "*"
+
+[dependencies.term_macros]
+git = "https://github.com/ckoshka/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2021"
+name = "wordlist"
+version = "0.1.0"
